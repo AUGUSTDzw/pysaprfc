@@ -26,3 +26,22 @@ fixedpoint.
 Installation
 
 Just copy pysap.py somewhere on PYTHONPATH (prefferabily to the site-packages directory).
+
+# ps: edit in vscode
+
+In order to avoid the issue : "No module named:xxx".
+You need add following configuration:
+
+```json
+// in launch.json(you may need create it manually) add following configuration
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			...
+			"env": { "PYTHONPATH": "${workspaceRoot}" }
+		}
+	]
+}
+```
+
