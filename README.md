@@ -27,7 +27,7 @@ Installation
 
 Just copy pysap.py somewhere on PYTHONPATH (prefferabily to the site-packages directory).
 
-# ps: edit in vscode
+# ps: Edit in vscode
 
 In order to avoid the issue : "No module named:xxx".
 You need add following configuration:
